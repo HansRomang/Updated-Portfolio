@@ -1,0 +1,243 @@
+* {
+	box-sizing: border-box;
+	color: #777;
+	font-family: Arial, Helvetica, sans-serif;
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 2s; /* Firefox < 16 */
+	 -ms-animation: fadein 2s; /* Internet Explorer */
+		-o-animation: fadein 2s; /* Opera < 12.1 */
+			 animation: fadein 2s;
+
+}
+
+#projectmain{
+	background-color:beige;
+}
+#mynavbar {
+	z-index:1;
+}
+body#index{
+	height: 100%;
+	background-color: #d7f0fc;
+}
+body#projects{
+	height: 100%;
+	background-color: #fcd7e5;
+}
+body#about{
+	height: 100%;
+	background-color: #b6fcad;
+}
+body#contact{
+	height: 100%;
+	background-color: #f5efb0;
+}
+#img1 {
+	z-index: -1;
+	position: relative;
+	max-width:100%;
+
+}
+#container{
+	height: 100%;
+	position: initial;
+}
+
+#h2projects {
+	padding: 0;
+}
+
+#maindiv{
+	height: 50%;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 50%;
+	float:right;
+	height: 100%;;
+	right: 15%;
+}
+
+header{
+	height:20px;
+	clear: both;
+	margin-bottom:8%;
+}
+
+#projectdiv{
+	background-color: beige;
+}
+
+#logo{
+	height:5%;
+	width:5%;
+	padding: 0px;
+	float: left;
+}
+
+#logo1{
+	background-color:white;
+	width: 10px;
+}
+
+#logo2{
+	background-color:black;
+	width: 10px;
+}
+
+#p1{
+	color: black;
+	padding: 0px;
+	margin: 0px;
+}
+#p2{
+	color: white;
+	padding: 0px;
+	margin: 0px;
+}
+
+h1{
+	font-size: 72px;
+	text-align: center;
+	padding-left: 10%;
+}
+h2 {
+	padding-left: 25%;
+	text-align: center;
+	-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 5s; /* Firefox < 16 */
+	 -ms-animation: fadein 5s; /* Internet Explorer */
+		-o-animation: fadein 5s; /* Opera < 12.1 */
+			 animation: fadein 5s;
+}
+h3 {
+	text-align: center;
+	padding-left: 40%;
+	-webkit-animation: fadein 8s; /* Safari, Chrome and Opera > 12.1 */
+	-moz-animation: fadein 8s; /* Firefox < 16 */
+	 -ms-animation: fadein 8s; /* Internet Explorer */
+		-o-animation: fadein 8s; /* Opera < 12.1 */
+			 animation: fadein 8s;
+}
+
+@keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+a:hover, a:visited, a:link, a:active{
+		text-decoration: #777;
+		padding: 2%;
+		z-index: 1;
+		color: #777;
+
+}
+
+footer {
+	clear: both;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	font-size: 10px;
+	float:left;
+}
+
+#projectholder {
+	margin: 0px auto;
+	text-align: center;
+	height: 20%;
+	width: 80%;
+	z-index:0;
+	margin-top:5%;
+}
+
+.img2{
+	height: 200px;
+	width: 200px;
+}
+#div1, #div2, #div3,
+#div4, #div5, #div6,
+#div7, #div8, #div9{
+	position: relative;
+	overflow: auto;
+	margin: 0px auto;
+	content: url(https://www.bing.com/th?id=OIP.BGGRLvwfGNTL8olm4-62ZgHaFM&pid=Api);
+	
+
+}
+
+#div1 {
+	content: url(https://www.bing.com/th?id=OIP.1YGdbV1u0mIWGLdCJA1_QQHaE8&pid=Api);
+}
+
+#div2 {
+	content: url(https://i.ytimg.com/vi/-zJJONw7T_g/maxresdefault.jpg);
+}
+
+#div3 {
+	content: url(https://tctechcrunch2011.files.wordpress.com/2016/02/giphyseriesc.gif?w=738)
+}
+
+#div4 {
+	content: url(http://theawakenedstate.net/wp-content/uploads/2015/04/quartz1.jpg)
+}
+
+#div5 {
+	content: url(https://www.bing.com/th?id=OIP.nIThvoXZECbb4D323CVwpgHaHa&w=183&h=183&c=7&o=5&pid=1.7)
+}
+
+.row{
+	max-width: 100%;
+}
+div#aboutme{
+	width:40%;
+	background-color: white;
+	float:right;
+	border: solid 2px rgb(120, 235, 120);
+	margin-top:5%;
+	clear:both;
+}
+
+.aboutp{
+	padding: 5px;
+}
+
+li {
+	padding: 5px;
+}
+
+input#email.form-control,input#name.form-control,
+input#phonenumb.form-control{
+	width: 80%;
+}
+
+
+
+.contacth2{
+	padding-right: 25%;
+	position:relative;
+
+}
+
+#contactcontainer {
+	background-color:beige;
+	margin-top:5%;
+}
+
+.row{
+	margin:5%;
+}
+
+p.pcontact{
+	margin: 0px auto;
+}
+
+#img3{
+	max-width:50%;
+	width:50%;
+	margin-top: 10%;
+}
